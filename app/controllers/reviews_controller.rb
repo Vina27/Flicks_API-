@@ -36,6 +36,4 @@ class ReviewsController < ApplicationController
         def review_params
             params.permit(:review, :movie_id, :user_id)
         end 
-
-       
 end
