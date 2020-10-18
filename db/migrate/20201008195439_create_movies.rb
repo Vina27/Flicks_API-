@@ -5,6 +5,7 @@ class CreateMovies < ActiveRecord::Migration[6.0]
       t.integer :year
       t.string :summary
       t.string :img_url
+      t.integer :genre_id 
 
       t.timestamps
     end

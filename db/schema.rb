@@ -21,7 +21,6 @@ ActiveRecord::Schema.define(version: 2020_10_08_195800) do
 
   create_table "genres", force: :cascade do |t|
     t.string "title"
-    t.integer "movie_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -31,6 +30,7 @@ ActiveRecord::Schema.define(version: 2020_10_08_195800) do
     t.integer "year"
     t.string "summary"
     t.string "img_url"
+    t.integer "genre_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
