@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Flicks Movie Review 
 
-Things you may want to cover:
+-Fork and clone from this repository 
+-Bundle install the gems from the Gemfile 
+-Run rails db:seed to pre-load the seed data 
+-Run rails s to start up the server (defaults to Port 3000)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This repo serves as the backend for the Flicks App. Here is the link to the frontend: https://github.com/Vina27/flicks_frontend
